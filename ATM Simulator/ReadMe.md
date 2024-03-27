@@ -26,50 +26,39 @@ This is a simple ATM simulator program written in C that allows users to deposit
 
 ## Example
 
+```
 Welcome to the ATM Simulator
 
-Deposit
-
-Withdraw
-
-Check Balance
-
-Exit
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
 Enter your choice: 1
 Enter amount to deposit: 100
 Deposited 100.00. New balance: 100.00
 
-Deposit
-
-Withdraw
-
-Check Balance
-
-Exit
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
 Enter your choice: 2
 Enter amount to withdraw: 50
 Withdrawn 50.00. New balance: 50.00
 
-Deposit
-
-Withdraw
-
-Check Balance
-
-Exit
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
 Enter your choice: 3
 Your current balance is: 50.00
 
-Deposit
-
-Withdraw
-
-Check Balance
-
-Exit
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
 Enter your choice: 4
 Thank you for using the ATM. Goodbye!
-
+```
 
 ## Implementation Details
 
@@ -81,5 +70,3 @@ Thank you for using the ATM. Goodbye!
 ## Requirements
 
 - C compiler (e.g., GCC) installed on your system.
-
-

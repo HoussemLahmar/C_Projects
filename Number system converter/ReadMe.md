@@ -20,15 +20,15 @@ This is a C program that converts decimal numbers to binary, octal, or hexadecim
 
 ## Example
 
+```
 Enter a decimal number: 123
 Choose the conversion type:
-
-Decimal to Binary
-Decimal to Octal
-Decimal to Hexadecimal
+1. Decimal to Binary
+2. Decimal to Octal
+3. Decimal to Hexadecimal
 Enter your choice (1, 2, or 3): 1
 Binary equivalent: 1111011
-
+```
 
 ## Implementation Details
 

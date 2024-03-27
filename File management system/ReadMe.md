@@ -27,16 +27,16 @@ This is a simple file management system program written in C that allows users t
 
 ## Example
 
+```
 File Management System
-
-Create File
-Delete File
-Copy File
-Move/Rename File
+1. Create File
+2. Delete File
+3. Copy File
+4. Move/Rename File
 Enter your choice: 1
 Enter the name of the file to create: test.txt
 File 'test.txt' created successfully
-
+```
 
 ## Implementation Details
 
@@ -49,3 +49,6 @@ File 'test.txt' created successfully
 
 - C compiler (e.g., GCC) installed on your system.
 
+## License
+
+This program is provided under the MIT License. See the [LICENSE](LICENSE) file for details.

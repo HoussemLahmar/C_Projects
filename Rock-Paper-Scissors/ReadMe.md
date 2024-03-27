@@ -1,3 +1,4 @@
+```markdown
 # Rock-Paper-Scissors Game Documentation
 
 ## Overview
@@ -21,11 +22,12 @@ This is a simple C program that allows the user to play the game of Rock-Paper-S
 
 ## Example
 
+```
 Welcome to the Rock-Paper-Scissors Game!
 Enter your choice (R for Rock, P for Paper, S for Scissors): R
 Computer's choice: P
 Sorry! Computer wins!
-
+```
 
 ## Implementation Details
 
@@ -38,6 +40,3 @@ Sorry! Computer wins!
 
 - C compiler (e.g., GCC) installed on your system.
 
-## License
-
-This program is provided under the MIT License. 
