@@ -1,46 +1,44 @@
-# Number Guessing Game
 
-This is a simple program written in C that allows users to play a number guessing game. The program generates a random number between 1 and 100, and the user has to guess it. The program provides hints after each guess, indicating whether the guess is too high or too low, until the user guesses the correct number.
+# Simple Calculator Program Documentation
 
-## How to Play
+## Overview
 
-1. Run the program.
-2. The program will prompt you to guess a number between 1 and 100.
-3. Enter your guess.
-4. The program will provide feedback, telling you if your guess is too high or too low.
-5. Keep guessing until you correctly guess the number.
-6. Once you guess the correct number, the program will congratulate you and tell you how many attempts it took.
+This is a simple calculator program written in C that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The program prompts the user to enter an operator and two numbers, then performs the specified arithmetic operation and displays the result.
 
-## Implementation Details
+## Features
 
-- The program utilizes the `rand()` function to generate a random number between 1 and 100.
-- The random number generator is seeded using the current time to ensure a different sequence of random numbers each time the program is run.
-- It employs a `do-while` loop to repeatedly prompt the user for guesses until the correct number is guessed.
-- After each guess, the program provides hints to the user whether the guess is too high or too low.
-- Once the correct number is guessed, the program displays a congratulatory message along with the number of attempts it took.
-
-## Requirements
-
-- C compiler (e.g., GCC) installed on your system.
+- Supports addition (+), subtraction (-), multiplication (*), and division (/) operations.
+- Checks for division by zero and invalid operators, displaying appropriate error messages.
+- Provides the result of the arithmetic operation with two decimal places.
 
 ## Usage
 
 1. Compile the program using a C compiler.
 2. Run the compiled executable.
-3. Follow the on-screen instructions to play the game.
+3. Enter the operator (+, -, *, /) when prompted.
+4. Enter two numbers when prompted.
+5. The program will perform the arithmetic operation and display the result.
 
 ## Example
 
-$ ./number_guessing_game
-Welcome to the Number Guessing Game!
-I have selected a number between 1 and 100.
-Enter your guess: 50
-Too high! Try again.
-Enter your guess: 25
-Too low! Try again.
-Enter your guess: 37
-Too high! Try again.
-Enter your guess: 30
-Too high! Try again.
-Enter your guess: 28
-Congratulations! You guessed the number 28 in 5 attempts!
+```
+Enter operator (+, -, *, /): +
+Enter two numbers: 12 4
+Result: 16.00
+```
+
+## Error Handling
+
+- If the user tries to divide by zero, the program displays an error message: "Error! Division by zero is not allowed."
+- If the user enters an invalid operator, the program displays an error message: "Error! Invalid operator."
+
+## Implementation Details
+
+- The program uses the `scanf()` function to read input from the user.
+- A `switch` statement is used to determine the operation based on the operator entered by the user.
+- Error handling is implemented to check for division by zero and invalid operators.
+
+## Requirements
+
+- C compiler (e.g., GCC) installed on your system.
+

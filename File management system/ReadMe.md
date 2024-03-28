@@ -1,3 +1,4 @@
+
 # File Management System Program Documentation
 
 ## Overview
@@ -49,6 +50,3 @@ File 'test.txt' created successfully
 
 - C compiler (e.g., GCC) installed on your system.
 
-## License
-
-This program is provided under the MIT License. See the [LICENSE](LICENSE) file for details.

@@ -1,4 +1,3 @@
-```markdown
 # Rock-Paper-Scissors Game Documentation
 
 ## Overview

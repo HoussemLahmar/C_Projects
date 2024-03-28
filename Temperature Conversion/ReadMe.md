@@ -20,14 +20,14 @@ This is a C program that converts temperature from Fahrenheit to Celsius or vice
 
 ## Example
 
+```
 Choose the conversion type:
-
-Fahrenheit to Celsius
-Celsius to Fahrenheit
+1. Fahrenheit to Celsius
+2. Celsius to Fahrenheit
 Enter your choice (1 or 2): 1
 Enter the temperature: 98.6
 98.60 Fahrenheit is equivalent to 37.00 Celsius.
-
+```
 
 ## Implementation Details
 

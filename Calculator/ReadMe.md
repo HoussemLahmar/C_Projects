@@ -20,10 +20,11 @@ This is a simple calculator program written in C that performs basic arithmetic 
 
 ## Example
 
+```
 Enter operator (+, -, *, /): +
 Enter two numbers: 12 4
 Result: 16.00
-
+```
 
 ## Error Handling
 
